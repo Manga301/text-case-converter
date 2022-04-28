@@ -1,0 +1,35 @@
+html {
+  visibility: visible;
+  opacity: 1;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.text-converter {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.conversion-form {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 80%;
+  height: 100px;
+}
+
+.upper-text {
+  text-transform: uppercase;
+}
+
+.lower-text {
+  text-transform: lowercase;
+}
+
+.sentence-text {
+  text-transform: capitalize;
+}

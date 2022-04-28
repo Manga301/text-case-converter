@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <style>
+      html {
+        visibility: hidden;
+        opacity: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="text-converter">
+      <h1>Sentence Case Cnverter</h1>
+      <p>Type your sentence below, select a conversion type, click convert.</p>
+      <p>The converter also removes text formating giving you clean text.</p>
+      <form class="conversion-form">
+        <textarea id="input-text"></textarea>
+      </form>
+      <span>convert to:</span>
+      <select id="text-options">
+        <option value="upper">Uppercase</option>
+        <option value="lower">Lowercase</option>
+        <option value="sentence">Sentence</option>
+      </select>
+      <button id="convert-btn">Convert</button><br /><br />
+      <form class="conversion-form">
+        <textarea id="output-text"></textarea>
+      </form>
+      <button id="copy-txt">Copy Text</button>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
